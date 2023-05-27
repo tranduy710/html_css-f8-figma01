@@ -149,7 +149,7 @@ a {
 /*=============Client============= */
 .client {
     padding: 43px 0 64px;
-    margin-top: 79px;
+    margin-top: 70px;
 }
 
 .client .row {
@@ -170,6 +170,18 @@ a {
 
 .client .image {
     margin-top: 96px;
+}
+
+.client .image a {
+    display: flex;
+    align-items: center;
+    padding: 0 42px;
+    height: 90px;
+    border-radius: 12px;
+}
+
+.client .image a:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
 
 /*=============Guides============= */
